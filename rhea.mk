@@ -102,15 +102,21 @@ PRODUCT_COPY_FILES += \
     $(COMMON_PATH)/configs/etc/media_profiles.xml:system/etc/media_profiles.xml \
     $(COMMON_PATH)/configs/etc/audio_policy.conf:system/etc/audio_policy.conf 
 
-# Prebuilt kl keymaps
+#Keyboard
 PRODUCT_COPY_FILES += \
+    $(COMMON_PATH)/keychars/Generic.kcm:system/usr/keychars/Generic.kcm \
+    $(COMMON_PATH)/keychars/bcm_keypad_v2.kcm:system/usr/keychars/bcm_keypad_v2.kcm \
+    $(COMMON_PATH)/keychars/qwerty.kcm:system/usr/keychars/qwerty.kcm \
+    $(COMMON_PATH)/keychars/qwerty2.kcm:system/usr/keychars/qwerty2.kcm \
+    $(COMMON_PATH)/keychars/Virtual.kcm:system/usr/keychars/Virtual.kcm \
+    $(COMMON_PATH)/keylayout/AVRCP.kl:system/usr/keylayout/AVRCP.kl \
     $(COMMON_PATH)/keylayout/bcm_headset.kl:system/usr/keylayout/bcm_headset.kl \
     $(COMMON_PATH)/keylayout/bcm_keypad_v2.kl:system/usr/keylayout/bcm_keypad_v2.kl \
-    $(COMMON_PATH)/keylayout/cyttsp4_btn.kl:system/usr/keylayout/cyttsp4_btn.kl \
+    $(COMMON_PATH)/keylayout/Generic.kl:system/usr/keylayout/Generic.kl \
     $(COMMON_PATH)/keylayout/gpio-keys.kl:system/usr/keylayout/gpio-keys.kl \
+    $(COMMON_PATH)/keylayout/qwerty.kl:system/usr/keylayout/qwerty.kl \
     $(COMMON_PATH)/keylayout/samsung-keypad.kl:system/usr/keylayout/samsung-keypad.kl \
-    $(COMMON_PATH)/keylayout/sii9234_rcp.kl:system/usr/keylayout/sii9234_rcp.kl \
-    $(COMMON_PATH)/keylayout/Generic.kl:system/usr/keylayout/Generic.kl 
+    $(COMMON_PATH)/keylayout/Zinitix_tsp.kl:system/usr/keylayout/Zinitix_tsp.kl
 
 # These are the hardware-specific features
 PRODUCT_COPY_FILES += \

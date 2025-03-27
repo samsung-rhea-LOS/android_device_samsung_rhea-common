@@ -118,6 +118,9 @@ PRODUCT_COPY_FILES += \
     $(COMMON_PATH)/keylayout/samsung-keypad.kl:system/usr/keylayout/samsung-keypad.kl \
     $(COMMON_PATH)/keylayout/Zinitix_tsp.kl:system/usr/keylayout/Zinitix_tsp.kl
 
+#TWRP
+PRODUCT_COPY_FILES += $(COMMON_PATH)/rootdir/etc/twrp.fstab:recovery/root/etc/twrp.fstab
+
 # These are the hardware-specific features
 PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/handheld_core_hardware.xml:system/etc/permissions/handheld_core_hardware.xml \

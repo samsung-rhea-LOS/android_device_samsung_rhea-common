@@ -13,11 +13,7 @@
 # limitations under the License.
 
 #
-# Generic key layout file for full alphabetic US English PC style external keyboards.
-#
-# This file is intentionally very generic and is intended to support a broad rang of keyboards.
-# Do not edit the generic key layout to support a specific keyboard; instead, create
-# a new key layout file with the required keyboard configuration.
+# Zinitix_tsp key layout file is for full alphabetic US English PC style external keyboards for zanin only.
 #
 
 key 1     ESCAPE
@@ -121,7 +117,7 @@ key 98    NUMPAD_DIVIDE
 key 99    SYSRQ
 key 100   ALT_RIGHT
 # key 101 "KEY_LINEFEED"
-#key 102   MOVE_HOME
+key 102   HOME
 key 103   DPAD_UP
 key 104   PAGE_UP
 key 105   DPAD_LEFT
@@ -141,7 +137,7 @@ key 117   NUMPAD_EQUALS
 key 119   BREAK
 # key 120 (undefined)
 key 121   NUMPAD_COMMA
-key 122   KANA
+key 122   LANG
 key 123   EISU
 key 124   YEN
 key 125   META_LEFT
@@ -191,7 +187,7 @@ key 168   MEDIA_REWIND
 key 169   CALL
 # key 170 "KEY_ISO"
 key 171   MUSIC
-key 102   HOME       WAKE
+key 172   MOVE_HOME             WAKE
 # key 173 "KEY_REFRESH"
 # key 174 "KEY_EXIT"
 # key 175 "KEY_MOVE"
@@ -243,8 +239,8 @@ key 217   SEARCH
 # key 221 "KEY_SHOP"
 # key 222 "KEY_ALTERASE"
 # key 223 "KEY_CANCEL"
-# key 224 "KEY_BRIGHTNESSDOWN"
-# key 225 "KEY_BRIGHTNESSUP"
+key 224   BRIGHTNESS_DOWN
+key 225   BRIGHTNESS_UP
 key 226   HEADSETHOOK
 
 key 256   BUTTON_1
@@ -300,7 +296,7 @@ key 318   BUTTON_THUMBR
 
 
 # key 352 "KEY_OK"
-key 353   DPAD_CENTER
+# key 353   DPAD_CENTER
 # key 354 "KEY_GOTO"
 # key 355 "KEY_CLEAR"
 # key 356 "KEY_POWER2"
@@ -384,4 +380,39 @@ key 472   F7                FUNCTION
 key 473   F8                FUNCTION
 key 474   F9                FUNCTION
 key 475   F10               FUNCTION
-key 476   F11     
+key 476   F11               FUNCTION
+key 477   F12               FUNCTION
+key 478   1                 FUNCTION
+key 479   2                 FUNCTION
+key 480   D                 FUNCTION
+key 481   E                 FUNCTION
+key 482   F                 FUNCTION
+key 483   S                 FUNCTION
+key 484   B                 FUNCTION
+
+
+# key 497 KEY_BRL_DOT1
+# key 498 KEY_BRL_DOT2
+# key 499 KEY_BRL_DOT3
+# key 500 KEY_BRL_DOT4
+# key 501 KEY_BRL_DOT5
+# key 502 KEY_BRL_DOT6
+# key 503 KEY_BRL_DOT7
+# key 504 KEY_BRL_DOT8
+
+
+# Joystick and game controller axes.
+# Axes that are not mapped will be assigned generic axis numbers by the input subsystem.
+axis 0x00 X
+axis 0x01 Y
+axis 0x02 Z
+axis 0x03 RX
+axis 0x04 RY
+axis 0x05 RZ
+axis 0x06 THROTTLE
+axis 0x07 RUDDER
+axis 0x08 WHEEL
+axis 0x09 GAS
+axis 0x0a BRAKE
+axis 0x10 HAT_X
+axis 0x11 HAT_Y

@@ -19,13 +19,21 @@ PRODUCT_COPY_FILES += \
     device/samsung/rhea-common/init.d/69fstrim_crond:system/etc/init.d/69fstrim_crond \
     device/samsung/rhea-common/init.d/swap:system/etc/init.d/swap
 
-# Prebuilt kl keymaps
+#Keyboard
 PRODUCT_COPY_FILES += \
-    device/samsung/rhea-common/keylayouts/bcm_headset.kl:system/usr/keylayout/bcm_headset.kl \
-    device/samsung/rhea-common/keylayouts/bcm_keypad_v2.kl:system/usr/keylayout/bcm_keypad_v2.kl \
-    device/samsung/rhea-common/keylayouts/gpio-keys.kl:system/usr/keylayout/gpio-keys.kl \
-    device/samsung/rhea-common/keylayouts/Generic.kl:system/usr/keylayout/Generic.kl \
-    device/samsung/rhea-common/keylayouts/samsung-keypad.kl:system/usr/keylayout/samsung-keypad.kl
+    device/samsung/rhea-common/keychars/Generic.kcm:system/usr/keychars/Generic.kcm \
+    device/samsung/rhea-common/keychars/bcm_keypad_v2.kcm:system/usr/keychars/bcm_keypad_v2.kcm \
+    device/samsung/rhea-common/keychars/qwerty.kcm:system/usr/keychars/qwerty.kcm \
+    device/samsung/rhea-common/keychars/qwerty2.kcm:system/usr/keychars/qwerty2.kcm \
+    device/samsung/rhea-common/keychars/Virtual.kcm:system/usr/keychars/Virtual.kcm \
+    device/samsung/rhea-common/keylayout/AVRCP.kl:system/usr/keylayout/AVRCP.kl \
+    device/samsung/rhea-common/keylayout/bcm_headset.kl:system/usr/keylayout/bcm_headset.kl \
+    device/samsung/rhea-common/keylayout/bcm_keypad_v2.kl:system/usr/keylayout/bcm_keypad_v2.kl \
+    device/samsung/rhea-common/keylayout/Generic.kl:system/usr/keylayout/Generic.kl \
+    device/samsung/rhea-common/keylayout/gpio-keys.kl:system/usr/keylayout/gpio-keys.kl \
+    device/samsung/rhea-common/keylayout/qwerty.kl:system/usr/keylayout/qwerty.kl \
+    device/samsung/rhea-common/keylayout/samsung-keypad.kl:system/usr/keylayout/samsung-keypad.kl \
+    device/samsung/rhea-common/keylayout/Zinitix_tsp.kl:system/usr/keylayout/Zinitix_tsp.kl
 
 # Audio|Media codecs
 PRODUCT_COPY_FILES += \

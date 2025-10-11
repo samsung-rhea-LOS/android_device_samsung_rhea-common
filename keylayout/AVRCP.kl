@@ -1,5 +1,4 @@
-#
-# Copyright (C) 2014 The CyanogenMod Project
+# Copyright (C) 2010 The Android Open Source Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -12,10 +11,13 @@
 # WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 # See the License for the specific language governing permissions and
 # limitations under the License.
-#
 
-LOCAL_PATH := $(call my-dir)
+# Key layout used for Bluetooth AVRCP support.
 
-ifneq ($(filter corsica nevisp ivoryss zanin,$(TARGET_DEVICE)),)
-include $(call all-subdir-makefiles,$(LOCAL_PATH))
-endif
+key 200   MEDIA_PLAY          WAKE
+key 201   MEDIA_PAUSE         WAKE
+key 166   MEDIA_STOP          WAKE
+key 163   MEDIA_NEXT          WAKE
+key 165   MEDIA_PREVIOUS      WAKE
+key 168   MEDIA_REWIND        WAKE
+key 208   MEDIA_FAST_FORWARD  WAKE

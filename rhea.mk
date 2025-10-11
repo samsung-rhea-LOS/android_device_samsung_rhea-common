@@ -87,13 +87,19 @@ PRODUCT_COPY_FILES += \
 
 # Prebuilt kl keymaps
 PRODUCT_COPY_FILES += \
-    $(COMMON_PATH)/keylayout/bcm_headset.kl:system/usr/keylayout/bcm_headset.kl \
-    $(COMMON_PATH)/keylayout/bcm_keypad_v2.kl:system/usr/keylayout/bcm_keypad_v2.kl \
-    $(COMMON_PATH)/keylayout/cyttsp4_btn.kl:system/usr/keylayout/cyttsp4_btn.kl \
-    $(COMMON_PATH)/keylayout/gpio-keys.kl:system/usr/keylayout/gpio-keys.kl \
-    $(COMMON_PATH)/keylayout/samsung-keypad.kl:system/usr/keylayout/samsung-keypad.kl \
-    $(COMMON_PATH)/keylayout/sii9234_rcp.kl:system/usr/keylayout/sii9234_rcp.kl \
-    $(COMMON_PATH)/keylayout/Generic.kl:system/usr/keylayout/Generic.kl 
+    device/samsung/rhea-common/keychars/Generic.kcm:system/usr/keychars/Generic.kcm \
+    device/samsung/rhea-common/keychars/bcm_keypad_v2.kcm:system/usr/keychars/bcm_keypad_v2.kcm \
+    device/samsung/rhea-common/keychars/qwerty.kcm:system/usr/keychars/qwerty.kcm \
+    device/samsung/rhea-common/keychars/qwerty2.kcm:system/usr/keychars/qwerty2.kcm \
+    device/samsung/rhea-common/keychars/Virtual.kcm:system/usr/keychars/Virtual.kcm \
+    device/samsung/rhea-common/keylayout/AVRCP.kl:system/usr/keylayout/AVRCP.kl \
+    device/samsung/rhea-common/keylayout/bcm_headset.kl:system/usr/keylayout/bcm_headset.kl \
+    device/samsung/rhea-common/keylayout/bcm_keypad_v2.kl:system/usr/keylayout/bcm_keypad_v2.kl \
+    device/samsung/rhea-common/keylayout/Generic.kl:system/usr/keylayout/Generic.kl \
+    device/samsung/rhea-common/keylayout/gpio-keys.kl:system/usr/keylayout/gpio-keys.kl \
+    device/samsung/rhea-common/keylayout/qwerty.kl:system/usr/keylayout/qwerty.kl \
+    device/samsung/rhea-common/keylayout/samsung-keypad.kl:system/usr/keylayout/samsung-keypad.kl \
+    device/samsung/rhea-common/keylayout/Zinitix_tsp.kl:system/usr/keylayout/Zinitix_tsp.kl
 
 # These are the hardware-specific features
 PRODUCT_COPY_FILES += \

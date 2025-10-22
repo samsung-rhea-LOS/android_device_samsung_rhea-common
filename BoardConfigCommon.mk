@@ -97,10 +97,8 @@ KERNEL_TOOLCHAIN := $(ANDROID_BUILD_TOP)/prebuilts/gcc/linux-x86/arm/arm-eabi-4.
 #File System
 BOARD_HAS_LARGE_FILESYSTEM := true
 TARGET_USERIMAGES_USE_EXT4 := true
-ifneq ($(TARGET_DEVICE),corsica,ivoryss)
 BOARD_CACHEIMAGE_FILE_SYSTEM_TYPE := ext4
 endif
-TARGET_USERIMAGES_USE_F2FS := true
 
 # Include an expanded selection of fonts
 EXTENDED_FONT_FOOTPRINT := true

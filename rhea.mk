@@ -116,7 +116,7 @@ PRODUCT_COPY_FILES += \
     $(COMMON_PATH)/keylayout/gpio-keys.kl:system/usr/keylayout/gpio-keys.kl \
     $(COMMON_PATH)/keylayout/qwerty.kl:system/usr/keylayout/qwerty.kl \
     $(COMMON_PATH)/keylayout/samsung-keypad.kl:system/usr/keylayout/samsung-keypad.kl \
-    $(COMMON_PATH)/keylayout/Zinitix_tsp.kl:system/usr/keylayout/Zinitix_tsp.kl
+    $(COMMON_PATH)/keylayout/Zinitix_tsp.kl:system/usr/keylayout/Zinitix_tsp.kl \
     $(COMMON_PATH)/keylayout/cyttsp4_btn.kl:system/usr/keylayout/cyttsp4_btn.kl \
     $(COMMON_PATH)/keylayout/sii9234_rcp.kl:system/usr/keylayout/sii9234_rcp.kl \
 
